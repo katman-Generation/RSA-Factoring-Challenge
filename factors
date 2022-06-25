@@ -11,13 +11,13 @@ def factorize(n):
 		return
 
 	print()
-	print(n; "<- n bef")
+	print(n, "<- n bef")
 
 	while n % p:
 		p += 1
-	print("{:.0f}={:.0f}*{:.0f}".format(n, n / p, p)
-	print(n, "<- n-aft")
-	print()
+	print("{:.0f}={:.0f}*{:.0f}".format(n, n / p, p))
+        print(n, "<- n-aft")
+        print()
 
 if len (argv) != 2
 	exit()
